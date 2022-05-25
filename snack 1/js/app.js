@@ -1,13 +1,15 @@
 number = [];
 
 
-let i = 0;
-while (i < 10) {
-    let askNumber = prompt('Inserisci un numerooo');
-    number.push(askNumber);
-    i++;
-    console.log(number);
+let sum = 0;
+
+while (sum <= 50) {
+    let askNumber = prompt('Inserisci un numero');
+    number.push(askNumber); 
+    sum += askNumber;
 }
+
+console.log(number);
 
 
 
