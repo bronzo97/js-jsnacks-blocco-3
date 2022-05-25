@@ -1,9 +1,9 @@
-let n = [];
+let number = 0;
+let sum = 0;
 
-for(let i = 0; i < 5; i++) {
-    let askNumber = prompt('inserisci un numero');
-    n.push(askNumber);
-    let m = n += n;
+for (let i = 0; i < 5; i++) {
+    number = parseInt(prompt('Inserisci un numero'));
+    sum += number;
 }
 
-console.log(m)
+console.log(sum);
