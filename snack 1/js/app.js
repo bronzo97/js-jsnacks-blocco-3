@@ -1,14 +1,26 @@
 let numbers = [];
 let sum = 0;
 
+// numbers.push(askNumber);
 
-do {
-    let askNumber = prompt('Scrivi un numero');
-    parseInt(askNumber);
+
+
+    let askNumber = +prompt('scrivi un numero');
+    console.log(askNumber);
+
+while (askNumber <= 50) {
+    console.log('number not big enough');
+    askNumber = +prompt('aggiungi un altro numero a quello precedente');
 }
-while (sum <= 50) {
-    sum += askNumber;
-}
+
+
+// do {
+//     let askNumber = +prompt('Scrivi un numero');
+
+// }
+// while (sum <= 50) {
+//     sum += askNumber;
+// }
 
 
 
